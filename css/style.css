@@ -1,0 +1,139 @@
+/* Font & Reset */
+body, h1, h2, h3, p, a, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #1A3E5C;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+/* Header */
+header {
+    background-color: #1A3E5C;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+header .slogan {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #F29C11;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #d8850d;
+}
+
+/* Servizi */
+#servizi {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Chi sono */
+#chi-sono .about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+#chi-sono img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Contatti */
+#contatti form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 2rem auto 0;
+}
+
+#contatti input, #contatti textarea {
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contatti button {
+    padding: 0.8rem;
+    background-color: #1A3E5C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contatti button:hover {
+    background-color: #163054;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #1A3E5C;
+    color: white;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #chi-sono .about {
+        flex-direction: column;
+        text-align: center;
+    }
+}
