@@ -1,2 +1,2 @@
-# maionegianni61.github.io
+# giovannimaione.github.io
 Soluzioni Informatiche di Giovanni Maione
